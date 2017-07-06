@@ -1,0 +1,1 @@
+class VehicleWorking(object): pass
