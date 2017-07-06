@@ -1,6 +1,6 @@
 from typing import List
 
-from domain.infrastructure.location.stop_location import StopLocation
+from infrastructure.location.stop_location import StopLocation
 
 
 class Route(object):

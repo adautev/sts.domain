@@ -1,9 +1,9 @@
 import unittest
 
-from domain.infrastructure.location.stop_location import StopLocation
-from domain.infrastructure.routes.route import Route
-from domain.infrastructure.routes.travel_path import TravelPath
-from domain.tests.test_route import TestRoute
+from infrastructure.location.stop_location import StopLocation
+from infrastructure.routes.route import Route
+from infrastructure.routes.travel_path import TravelPath
+from tests.test_route import TestRoute
 
 
 class TestTravelPath(unittest.TestCase):

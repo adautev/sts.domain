@@ -1,7 +1,7 @@
 import unittest
 
-from domain.infrastructure.location.stop_location import StopLocation
-from domain.infrastructure.routes.route import Route
+from infrastructure.location.stop_location import StopLocation
+from infrastructure.routes.route import Route
 
 
 

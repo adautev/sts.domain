@@ -1,6 +1,9 @@
 import unittest
-from domain.infrastructure.location.stop_area import StopArea
-from domain.infrastructure.location.stop_area import StopLocation
+
+from infrastructure.location.stop_area import StopArea
+from infrastructure.location.stop_location import StopLocation
+
+
 class TestStopArea(unittest.TestCase):
     def test_constructor(self):
         stop_area = StopArea(latitude = 2, longtitude = 1, stop_locations = [StopLocation(1,2)])

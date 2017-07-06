@@ -1,7 +1,7 @@
 from typing import List
 
-from domain.exceptions.exception_codes import ExceptionCodes
-from domain.infrastructure.routes.route import Route
+from exceptions.exception_codes import ExceptionCodes
+from infrastructure.routes.route import Route
 
 
 class TravelPath(object):

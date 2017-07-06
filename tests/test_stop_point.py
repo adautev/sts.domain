@@ -1,5 +1,5 @@
 import unittest
-from domain.infrastructure.location.stop_point import StopPoint
+from infrastructure.location.stop_point import StopPoint
 class TestStopPoint(unittest.TestCase):
     def test_constructor(self):
         stop_point = StopPoint(1, 2)

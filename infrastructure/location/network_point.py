@@ -1,4 +1,4 @@
-from domain.infrastructure.location.geo_point import GeoPoint
+from infrastructure.location.geo_point import GeoPoint
 
 
 class NetworkPoint(GeoPoint):
