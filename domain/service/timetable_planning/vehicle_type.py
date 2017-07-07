@@ -1,0 +1,2 @@
+class VehicleType(object):
+    pass
